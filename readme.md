@@ -6,11 +6,16 @@ This project tracks GitHub activity using webhooks and displays it in real-time.
 
 ## 🧩 Project Structure
 
+Test Repo for Github Actions
+```
+action-repo/ # A test GitHub repo to trigger events
+```
+Github Activity Tracker Structure
+```
 github-webhook-project/
-├── action-repo/ # A test GitHub repo to trigger events
 ├── webhook-repo/ # Flask backend to receive and store events
 └── webhook-ui/ # React frontend to display activity
-
+```
 
 ---
 
