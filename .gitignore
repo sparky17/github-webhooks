@@ -1,0 +1,39 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+/server/__pycache__/
+env/
+/server/virtualenv/
+instance/
+.venv/
+*.sqlite3
+*.db
+*.log
+
+# Ignore Flask specific files/folders
+instance/
+.env
+
+# Ignore Node and React (client) files
+/client/node_modules/
+/client/build/
+/client/dist/
+/client/coverage/
+
+# Ignore System-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore lock files (optional depending on the setup)
+package-lock.json
+yarn.lock
+
+# Ignore .env files (for sensitive data)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -1,0 +1,87 @@
+/* General Header Styles */
+.header {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+.header-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+.tracker h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+   
+.dark-mode {
+    --header-bg: #141518;
+    --header-text: #f1f1f1;
+    background-color: #141313;
+    color: #eaeaea;
+  }
+   
+/* General Styling for GitHub Actions */
+.github-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 20px;
+  }
+  
+  .action-card {
+    background-color: var(--header-bg); /* Card background */
+    color: var(--header-text); /* Text color */
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%; /* Card width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .card-header h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .timestamp {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+  }
+  
+  .branch {
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  /* Additional styling for action types */
+  .card-body strong {
+    color: #333;
+  }
+  
+  .card-body p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
